@@ -4,5 +4,5 @@ www/vendor
 .vagrant
 www/html/tmp
 www/logs
-.buildpath
-.project
+www/.buildpath
+www/.project
