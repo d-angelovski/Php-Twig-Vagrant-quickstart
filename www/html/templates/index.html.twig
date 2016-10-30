@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block head %}
+	<!-- This you can use for index.php Head content only -->
+{% endblock %}
+
+{% block mainContent %}
+	{% embed 'grid/md4x4x4.grid.twig' %}
+		{% block c1 %}
+			<h2>Heading on Index page</h2>
+      		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		{% endblock %}
+		{% block c2 %}
+			<h2>Heading on Index page</h2>
+      		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		{% endblock %}
+		{% block c3 %}
+			<h2>Heading on Index page</h2>
+      		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		{% endblock %}
+	{% endembed %}
+{% endblock %}
+
+{% block scripts %}
+	<!-- This you can use for Index.php Javascripts only -->
+{% endblock %}

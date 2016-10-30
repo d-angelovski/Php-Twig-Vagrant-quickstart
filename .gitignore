@@ -1,0 +1,6 @@
+puphpet/config-custom.yaml
+.settings
+www/vendor
+.vagrant
+www/html/tmp
+www/logs

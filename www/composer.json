@@ -1,0 +1,12 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"info\\angelovski\\" : "src"
+		}
+	},
+	"name" : "info/angelovski",
+	"require" : {
+		"php" : ">=7",
+		"twig/twig" : "1.23.1"
+	}
+}
